@@ -1,0 +1,57 @@
+.footer{
+   background-color: $dark-red;
+   &__logo{
+    transition: all 0.4s;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    z-index: 9999;
+    width: 100px;
+    margin: 0 auto;
+    top: -24px;
+    &:hover{
+       transform: scale(1.1);
+    }
+   }
+}
+.nav-footer{
+   position: relative;
+   .navbar__inner{
+      padding: 30px 0;
+      margin-bottom: 8px;
+   }
+   .nav--left{
+      padding-right: 108px;
+   }
+   .nav--right{
+      padding-left: 108px;
+   }
+   .nav__item{
+      padding: 0 12px;
+      &:hover{
+         background-color: transparent;
+         .nav__link{
+            text-decoration: underline;
+            color: $red;
+         }
+      }
+   }
+   .nav__link{
+      color: #fff;
+      font-size: 0.75rem;
+   }
+}
+.social-footer{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 40px;
+   li{
+      margin: 0 12px;
+   }
+}
+.copyright{
+   text-align: center;
+   color: #fff;
+   font-size: 0.875rem;
+   margin-bottom: 21px;
+}

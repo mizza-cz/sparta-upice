@@ -1,0 +1,102 @@
+.video-wrapper{
+   height:294px;
+   object-fit: cover;
+   
+   &:hover{
+      h3{
+         text-decoration: underline;
+      }
+   }
+}
+.hp-video{
+   background-color: #fbefef;
+   padding-bottom: 40px;
+}
+.col-xl-8{
+   flex: 0 0 65.5% !important;
+   max-width: 65.5% !important;
+}
+.video-list{
+   background-color: $dark-red;
+   flex: 0 0 34.5%;
+   max-width: 34.5%;
+
+   h3{
+      text-transform: uppercase;
+      line-height: 1.38;
+      margin-bottom: 4px;
+   }
+   span{
+      color: $red;
+      font-size: 0.75rem;
+      line-height: normal;
+      font-weight: 700;
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid $red;
+      display: block;
+      &:last-child{
+         border: none;
+         padding-bottom: 0;
+         margin-bottom: 0;
+      }
+   }
+}
+.p-40{
+   padding: 40px !important;
+}
+@media(min-width: 576px){
+   .video-wrapper{
+      height:414px;
+   }
+}
+@media(min-width: 992px){
+   .video-wrapper{
+      height:482px !important; 
+      
+   }
+}
+.video-wrapper::before{
+   content:"";
+   cursor: pointer;
+   z-index:1;
+   position:absolute;
+   width:104px;
+   height:104px;
+   left:0;
+   right:0;
+   top:0;
+   bottom:0;
+   margin:auto;
+   background-image:url("../images/svg/play-button.svg");
+   background-repeat:no-repeat;
+   background-size:contain;
+   -webkit-transition:all .3s;
+   -moz-transition:all .3s;
+   -ms-transition:all .3s;
+   -o-transition:all .3s;
+   transition:all .3s;
+}
+.video-wrapper:hover::before{
+   transform:scale(1.05);
+}
+a.link-stretched{position:absolute;top:0;right:0;bottom:0;left:0;z-index:5;pointer-events:auto;content:"";background-color:rgba(0,0,0,0)}.text-black{color:#000 !important}
+.video-info{
+   padding: 32px 48px 29px 48px;
+   background-color: #fff;
+   .link-stretched{
+      position: relative;
+      color: $red;
+      margin-top: 3px;
+   }
+   span{
+      font-weight: 700;
+      font-size: 0.875rem;
+   }
+   h2{
+      margin-bottom: 4px;
+   }
+   a{
+      display: block;
+   }
+}

@@ -1,0 +1,168 @@
+@media(max-width:1200px){
+   .aside{
+      padding: 0 60px;
+   }
+   .clanek-page{
+      padding-right: 15px;
+      margin-bottom: 40px;
+   }
+   .main__homepage,
+   .main__content,
+   .clanek-page{
+      max-width: 100% !important;
+      flex: 100% !important;
+   }
+   .hp-article,
+   .main__content{
+      margin-bottom: 40px;
+   }
+}
+@media(max-width:1100px){
+   .partners__item{
+      flex: 40%;
+      max-width: 40%;
+   }
+   .video-wrapper{
+      height: 450px !important;
+   }
+   .hp-video {
+      .col-xl-8,
+      .video-list{
+         flex: 100% !important;
+         max-width: 100% !important;
+      }
+   }
+}
+@media(max-width:900px){
+   .nav-footer .nav--right{
+      padding-left: 50px;
+   }
+   .nav-footer .nav--left{
+      padding-right: 50px;
+   }
+   .footer__logo{
+      width: 70px;
+   }
+}
+
+@media(max-width:770px){
+   .clanek-page__info{
+      padding: 30px 20px 7px 20px;
+   }
+   .clanek-page__content{
+      padding: 20px;
+   }
+   .main__content{
+      padding: 32px;
+   }
+   .partners__item{
+      flex: 50%;
+      max-width: 50%;
+   }
+   .aside__box:last-child{
+      margin-bottom: 0;
+   }
+   .video-info{
+      padding: 20px;
+   }
+   .video-wrapper::before{
+      height: 60px;
+      width: 60px;
+   }
+   .video-wrapper{
+      height: 340px !important;
+   }
+   .hp-article__item{
+      margin-bottom: 15px;
+   }
+   .hp-article__box{
+      position: inherit;
+      background-color: #fff;
+      margin: 0;
+      padding:  20px;
+      h3{
+         color: #000;
+      }
+   }
+   .topstory #topstory-slider-control{
+      bottom: 10px;
+   }
+   .topstory-article-info{
+      padding: 20px !important;
+      left: 20px;
+   }
+   h2{
+      font-size: 1.25rem !important;
+   }
+   h1{
+      font-size: 1.5rem !important;
+   }
+   .topstory-article,
+   .topstory{
+      height: 470px;
+   }
+   .nav-footer .navbar__inner{
+      padding: 60px 0 20px 0;
+      flex-direction: column;
+   }
+   .nav{
+      width: 100%;
+   }
+   .nav--left{
+      justify-content: center;
+   }
+   .nav-footer .nav--right{
+      padding-left: 0;
+      justify-content: center;
+   }
+   .nav-footer .nav--left{
+      padding-right: 0;
+   }
+}
+@media(max-width:640px){
+   .main__content{
+      padding: 24px;
+   }
+   table td img{
+      margin-left: 0;
+   }
+   .aside__box .aside__zapas .link{
+      margin-bottom: 8px;
+   }
+   .aside{
+      padding: 0 10px;
+   }
+   .topstory-article-info{
+      left: 0;
+   }
+   h1{
+      font-size: 1.3rem !important;
+   }
+   .topstory-article,
+   .topstory{
+      height: 320px;
+   }
+   .hp-article__item{
+      flex: 100%;
+      max-width: 100%;
+   }
+}
+@media(max-width:540px){
+   .partners__item{
+      flex: 80%;
+      max-width: 80%;
+   }
+   .video-list{
+      padding: 30px !important;
+   }
+   .video-wrapper{
+      height: 250px !important;
+   }
+}
+
+@media(max-width:410px){
+   .partners__item{
+      flex: 100%;
+      max-width: 100%;
+   }
+}
