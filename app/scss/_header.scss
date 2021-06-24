@@ -292,8 +292,10 @@
     }
     .nav__item.active {
       .dropdown-menu {
+
         height: 100%;
         display: block;
+        text-align: center;
       }
     }
     .dropdown-menu__link {
@@ -301,7 +303,14 @@
       padding: 6px 12px;
     }
     .dropdown-menu {
+      padding: 0;
       width: 100%;
+      &__list{
+        padding: 4px 0;
+      }
+      &__list:last-child{
+        border-bottom: none;
+      }
     }
   
     .logo-mob {

@@ -8,6 +8,7 @@
 // end
   
  $(function(){
+  $('select, input.radio, input.checkbox').styler();
   $(".topstory-slider").slick({
     autoplay:!0,
     autoplaySpeed:5e3,

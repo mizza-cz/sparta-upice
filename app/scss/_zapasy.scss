@@ -1,0 +1,28 @@
+.zapasy-page{
+   &__menu{
+      text-align: center;
+      padding: 16px 0;
+      a{
+         text-decoration: underline;
+         color: $red;
+      }
+   }
+   .teams{
+      font-size: 1.2rem;
+   }
+   &__item{
+      .result{
+         font-size: 2rem;
+         &.red{
+            color: $red;
+         }
+         &.green{
+            color: $green;
+         }
+      }
+      img{
+         width: 48px;
+         object-fit: cover;
+      }
+   }
+}
