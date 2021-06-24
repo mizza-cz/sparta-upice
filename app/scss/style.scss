@@ -10,6 +10,7 @@
 @import 'partneri';
 @import 'zapas';
 @import 'zapasy';
+@import 'fotogalerie';
 .main{
    background-color: #fbefef;
  
@@ -179,8 +180,55 @@ table{
       }
    }
 }
+.form{
+   &__row{
+      
+      display: flex;
+      input{
+         max-width: 312px;
+         height: 40px;
+         font-family: 'Inter', sans-serif;
+         font-weight: 400;
+         color: #212529;
+         border: 1px solid rgba(0,0,0,0.1);
+         &::placeholder{
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            color: #212529;
+         }
+      }
+      .link{
+         padding: 4px 16px;
+         &::before,
+         &::after{
+            display: none;
+         }
+      }
+      button{
+         height: 40px;
+         border: none;
+         margin: 0 15px;
+      }
+   }
+}
 
-
+@media(max-width:480px){
+   .jq-selectbox{
+      max-width: 100%;
+      margin-bottom: 16px;
+   }
+   .form__row{
+      flex-wrap: wrap;
+      input{
+         max-width: 100%;
+         margin-bottom: 16px;
+      }
+      button{
+         margin: 0;
+         max-width: 100%;
+      }
+   }
+}
 
 
 
