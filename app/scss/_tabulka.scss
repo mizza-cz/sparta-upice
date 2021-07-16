@@ -1,0 +1,43 @@
+.table-page{
+   .team{
+      text-align: left !important;
+   }
+   .poradi,.logo{
+      text-align: center;
+   }
+   .logo{
+      width: 40px;
+   }
+  
+   th{
+      text-transform: uppercase;
+      background-color: rgba($red, .1);
+      padding: 6px;
+   }
+   td{
+      border-bottom: 1px solid rgba($red, .3);
+      padding: 4px;
+   }
+   th:last-child,td:last-child{
+      padding-right: 20px;
+   }
+   &__row{
+      margin-bottom: 32px;
+   }
+   &__list{
+      margin-top: 16px;
+   }
+   .sparta{
+      td, td a{
+         color: $red;
+         font-weight: 700;
+      }
+   }
+}
+@media(max-width:640px){
+   .table-page__row{
+      table{
+         width: 600px;
+      }
+   }
+}
