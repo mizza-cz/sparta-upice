@@ -12,6 +12,7 @@
 @import 'zapasy';
 @import 'fotogalerie';
 @import 'soupiska';
+@import 'archiv';
 .main{
    background-color: #fbefef;
  
@@ -185,6 +186,9 @@ table{
    &__row{
       
       display: flex;
+      .jq-selectbox+.jq-selectbox{
+         margin-left: 16px;
+      }
       input{
          max-width: 312px;
          height: 40px;
@@ -220,6 +224,9 @@ table{
    }
    .form__row{
       flex-wrap: wrap;
+      .jq-selectbox+.jq-selectbox{
+         margin-left: 0px;
+      }
       input{
          max-width: 100%;
          margin-bottom: 16px;

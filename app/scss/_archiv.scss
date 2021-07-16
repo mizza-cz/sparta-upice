@@ -1,0 +1,31 @@
+.archiv-page{
+
+}
+.archive-item{
+   border-bottom: 1px solid $red;
+   padding: 16px 0;
+   span{
+      font-size: 0.875rem;
+   }
+   h3{
+      font-size: 1.3rem;
+      line-height: 1.4;
+   }
+   &:first-child{
+      border-top: 1px solid $red;
+   }
+}
+.page-item.active .page-link{
+   color: #fff;
+   background-color: $red;
+   border-color: $red;
+}
+.page-link{
+   color: $red;
+   &:hover{
+      color: $dark-red;
+   }
+   &:focus{
+      box-shadow: none;
+   }
+}
